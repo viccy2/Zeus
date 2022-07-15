@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subject Grade</title>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width" initial-scale="1">
+
+
+  <link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="wowjs/css/libs/animate.css">
+  <script type="text/javascript" src="wowjs/dist/wow.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="bootstrap4/js/jquery-ui.css" />
+   <link rel="stylesheet" type="text/css" href="subject.css">
+    <link rel="shortcut icon" href="images/graduate.png">
+     <script type="text/javascript" src="tether/dist/js/tether.js"></script>
+     <script type="text/javascript" src="bootstrap4/js/popper.js"></script>
+     <script type="text/javascript" src="bootstrap4/js/jquery-3.2.1.min.js"></script>
+     <script type="text/javascript" src="bootstrap4/js/bootstrap.min.js"></script>
+     
+     <script>
+        new WOW().init();
+     </script>
+     <script>
+     	 	function set() {
+     	var a = 50;
+     	var b = document.getElementById('grade').value;
+    	if (b<=39) {
+    		alert('grade is F9');
+    	}	
+    	if (b>39 && b<=44) {
+    		alert('grade is E8');
+    	}
+    	if (b>44 && b<=49) {
+    		alert('grade is D7');
+    	}
+    	if (b>44 && b<=54) {
+    		alert('grade is C6');
+    	}
+    	if (b>54 && b<=59) {
+    		alert('grade is C5');
+    	}
+    	if (b>59 && b<=64) {
+    		alert('grade is C4');
+    	}
+    	if (b>64 && b<=69) {
+    		alert('grade is B3');
+    	}
+    	if (b>69 && b<=74) {
+    		alert('grade is B2');
+    	}
+    	else if (b>74 && b<=100){
+    		alert('grade is A1');
+    	}
+
+     	}
+     	
+     </script>
+     <style type="text/css">
+     </style>
+</head>
+<body>
+	<center>
+	<input type="text" name="" class="form-control" style="width:300px" id="grade"><br>
+	<input type="button" name="" class="btn" value="submit" onclick="set()">
+</center>
+
+</body>
+</html>

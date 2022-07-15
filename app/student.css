@@ -1,0 +1,317 @@
+nav.navbar {
+  background: #393836;
+  padding: .8rem 0;
+  /* Navbar Brand --------- */
+  /*  Dropdowns ------------ */
+  /* Toggle Button ---------- */
+  width: 100%;
+}
+
+nav.navbar .side-navbar-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+nav.navbar .container-fluid {
+  width: 100%;
+}
+
+nav.navbar .navbar-holder {
+  width: 100%;
+}
+
+nav.navbar a {
+  font-size: .8rem;
+  color: #fff;
+  position: relative;
+}
+
+nav.navbar .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+nav.navbar a.language span {
+  margin-left: .2rem;
+  vertical-align: middle;
+}
+
+nav.navbar a.logout i span{
+  margin-left: 5px;
+}
+
+nav.navbar small {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+nav.navbar a.navbar-brand {
+  margin-left: 10px;
+}
+
+nav.navbar .brand-text {
+  text-transform: uppercase;
+}
+
+nav.navbar .brand-text strong {
+  font-size: 1.5em;
+}
+
+nav.navbar .nav-menu {
+  margin-bottom: 0;
+}
+
+nav.navbar .dropdown-toggle::after {
+  border: none !important;
+  content: '\f107';
+  vertical-align: baseline;
+  font-family: 'FontAwesome';
+  margin-left: .3rem;
+}
+
+nav.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  float: left;
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+nav.navbar .dropdown-menu .dropdown-item {
+  color: #666;
+  padding: 10px;
+}
+
+nav.navbar .dropdown-menu .dropdown-item:active {
+  color: #fff;
+}
+
+nav.navbar .dropdown-menu .dropdown-item:active span,
+nav.navbar .dropdown-menu .dropdown-item:active small {
+  color: #fff;
+}
+
+nav.navbar .dropdown-menu .dropdown-item span {
+  color: #777;
+}
+
+nav.navbar .dropdown-menu .dropdown-item i {
+  margin-right: 5px;
+}
+
+nav.navbar .msg-body span,
+nav.navbar .msg-body strong {
+  display: block;
+}
+
+nav.navbar .msg-body span {
+  font-size: 0.85em;
+}
+
+nav.navbar .msg-profile {
+  margin-right: 10px;
+  width: 50px;
+}
+
+nav.navbar .notification-content {
+  font-size: .8rem;
+  margin-right: .5rem;
+}
+
+nav.navbar a.menu-btn {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #292929;
+  color: #fff;
+  text-align: center;
+  padding: 0 !important;
+}
+
+nav.navbar a.menu-btn i[class*='icon-'] {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+
+nav.navbar a.menu-btn:hover {
+  background: #33b35a;
+}
+
+/*  NAVBAR MEDIAQUERIES ---------------------------------- */
+@media (max-width: 575px) {
+  nav.navbar .dropdown-menu {
+    width: auto;
+    right: -40px;
+  }
+  nav.navbar .notification {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 992px) {
+  nav.navbar .dropdown-menu strong {
+    font-weight: 400;
+  }
+  nav.navbar .dropdown-menu a {
+    font-size: 0.9em;
+  }
+}
+.about-bottoml-agileits {
+    background: url(images/c1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 521px;
+}
+.about-bottomr-agileits {
+    background: url(images/n1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    padding: 4em 4em;
+    position: relative;
+}
+.appointment_head h3 {
+    color: #ffffff;
+}
+.about-bottomr-agileits img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+}
+.appointment .timings-w3ls {
+    width: 35%;
+    float: left;
+    padding: 25px 40px!important;
+}
+.form-agileits input[type="text"], .form-agileits input[type="email"], select.form-control {
+    width: 49.1%;
+    float: left;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 10px;
+  letter-spacing: 1px;
+    border: none;
+    border-bottom:2px solid rgba(125, 125, 125, 0.36);
+    -webkit-appearance: none;
+    margin: .3em 0em 1em 0em;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+}
+.form-agileits input[type="text"]:focus , .form-agileits input[type="email"]:focus , select.form-control:focus {
+    border-color: rgba(12, 184, 182, 0.27);
+}
+input.name,select.name {
+    margin-right: 12px!important;
+}
+input.address{
+  width:100%!important;
+}
+select.form-control {
+    outline: none;
+    border-radius: 0;
+    height: 42px;
+  box-shadow: none;
+  color: #999;
+}
+.form-agileits h6, .form-agileits .wthree-text span {
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: 15px 0 6px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-agileits input[type="submit"] {
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 48px;
+    margin-top: 2em;
+    font-size: 13px;
+    background: #fcd000;
+    border: 2px solid #fcd000;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.form-agileits input[type="submit"]:hover {
+    background: #f36438;
+  color:#fff;
+  border-color:#fff;
+  transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all; 
+}
+.form-control:focus {
+    border-color: #f36438;
+    outline: 0;
+    box-shadow: none;
+}
+option {
+    background: #000;
+  color:#fff;
+}
+.ui-datepicker .ui-datepicker-header {
+    background: #f36438;
+}
+.w3ls-location {
+    background: url(../images/location.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 158px;
+    width: 35%;
+    float: left;
+    margin-left: 21px;
+    margin-top: 18px;
+}
+.w3ls-location a {
+    text-decoration: none;
+    display: inline-block;
+    color: #f36438;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 59px 0px 0 137px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+.hr{
+  height:2px;
+  margin:60px 0 50px 0;
+  background:#243660;
+}

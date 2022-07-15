@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subject Grade</title>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width" initial-scale="1">
+
+
+  <link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="wowjs/css/libs/animate.css">
+  <script type="text/javascript" src="wowjs/dist/wow.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="bootstrap4/js/jquery-ui.css" />
+   <link rel="stylesheet" type="text/css" href="subject.css">
+    <link rel="shortcut icon" href="images/graduate.png">
+     <script type="text/javascript" src="tether/dist/js/tether.js"></script>
+     <script type="text/javascript" src="bootstrap4/js/popper.js"></script>
+     <script type="text/javascript" src="bootstrap4/js/jquery-3.2.1.min.js"></script>
+     <script type="text/javascript" src="bootstrap4/js/bootstrap.min.js"></script>
+     
+     <script>
+        new WOW().init();
+     </script>
+     <script>
+     	 	function set() {
+     
+     	var b = document.getElementById('grade').value;
+        if (b>0) {
+            alert('positive');
+        }
+        else if (b<0) {
+            alert('negative');
+        }
+        else{
+            alert('no');
+        }
+
+     	}
+     	
+     </script>
+     <style type="text/css">
+     </style>
+</head>
+<body>
+	<center>
+	<input type="text" name="" class="form-control" style="width:300px" id="grade"><br>
+	<input type="button" name="" class="btn" value="submit" onclick="set()">
+</center>
+
+</body>
+</html>

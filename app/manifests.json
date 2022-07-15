@@ -1,0 +1,22 @@
+{
+  "name": "School Portal",
+  "short_name": "ZEUS School",
+  "start_url":"index.html",
+  "display":"fullscreen",
+  "orientation":"portrait",
+  "description": "Chat with your Friends.",
+  "background_color": "#000000",
+  "theme_color": "#1F2605",
+  "icons": [
+    {
+    "src": "images/que.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  },
+  {
+    "src": "images/quest.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+]
+}
